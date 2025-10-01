@@ -5,25 +5,6 @@ Need:
 
 npm run dev to start on localhost
 
-src/
-├── app/
-│   ├── login/          # Authentication page
-│   ├── chat/           # Main chat interface
-│   ├── layout.tsx      # Root layout
-│   └── page.tsx        # Home/redirect page
-├── components/
-│   ├── ChatBox.tsx     # Main chat container
-│   ├── MessageList.tsx # Message display with auto-scroll
-│   ├── MessageInput.tsx # Message input with send functionality
-│   ├── MessageBubble.tsx # Individual message component
-│   └── LoginForm.tsx   # Authentication form
-├── lib/
-│   ├── auth.ts         # Authentication system
-│   └── openrouter.ts   # OpenRouter API integration
-└── types/
-    └── chat.ts         # TypeScript type definitions
-
-
 Authentication:
 - Simple email/password login
 - User registration
